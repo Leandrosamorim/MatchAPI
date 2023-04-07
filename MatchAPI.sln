@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchAPI", "MatchAPI\MatchAPI.csproj", "{BB835A68-BE0A-4D66-BFAD-6F2023C4399D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchAPI", "MatchAPI\MatchAPI.csproj", "{BB835A68-BE0A-4D66-BFAD-6F2023C4399D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{28A5395C-C900-4676-A7C5-2F83F28B028D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{28A5395C-C900-4676-A7C5-2F83F28B028D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{334C40A2-16F7-43B5-8655-18BF2BD754E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{334C40A2-16F7-43B5-8655-18BF2BD754E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{1FB7B0CB-75C8-4113-958F-3C789C411ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{1FB7B0CB-75C8-4113-958F-3C789C411ABC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +39,8 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B838B10-BDE8-4045-9CC7-2909733ED479}
+	EndGlobalSection
+	GlobalSection(NDepend) = preSolution
+		Project = ".\MatchAPI.ndproj"
 	EndGlobalSection
 EndGlobal
