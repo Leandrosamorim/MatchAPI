@@ -25,7 +25,7 @@ namespace MatchAPI.Controllers
 
         [HttpGet]
         [EnableCors("OrganizationAPI")]
-        public async Task<IActionResult> GetDevelopersToMatch(Guid organizationUId, int stackId)
+        public async Task<IActionResult> GetDevelopersToMatch([FromQuery]Guid organizationUId, int stackId)
         {
             try
             {

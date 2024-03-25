@@ -40,7 +40,7 @@ namespace Domain.DeveloperNS.HttpService
         public async Task<IEnumerable<Developer>> GetDevelopersByUId(IEnumerable<Guid> uids)
         {
             var url = "api/Developer/contact?UId=";
-            var param = string.Join(",&UId=", uids);
+            var param = string.Join("&UId=", uids);
             var response = await _client.GetAsync(url + param);
 
             if (response.IsSuccessStatusCode)
